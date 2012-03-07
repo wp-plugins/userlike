@@ -10,11 +10,6 @@
 							<form method="post" action="options.php">
 								<?php settings_fields('userlike'); ?>
 								<p>
-									<label for="userlike_app_key"><?php echo __('Your Userlike Application Key', 'userlike') ?></label><br />
-
-									<input type="text" name="userlike_app_key" value="<?php echo get_option('userlike_app_key'); ?>" style="width:100%" />
-								</p>
-								<p>
 									<label for="userlike_secret"><?php echo __('Your Userlike Secret', 'userlike') ?></label><br />
 
 									<input type="text" name="userlike_secret" value="<?php echo get_option('userlike_secret'); ?>" style="width:100%" />
