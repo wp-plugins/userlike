@@ -3,7 +3,7 @@ Contributors: zakx
 Tags: userlike, livechat, livehelp, live, chat, help
 Requires at least: 3.3
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 This plugin integrates the Userlike live chat into your website.
 
@@ -19,6 +19,9 @@ Please note that this plugin requires cURL support in your PHP installation.
 1. Go to 'Settings' -> 'Userlike' and enter your Userlike.com credentials
 
 == Changelog ==
+
+= 1.1 =
+* Updated for new Userlike API (you'll only need your secret now)
 
 = 1.0 =
 * First release
