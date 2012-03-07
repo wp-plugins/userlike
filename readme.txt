@@ -25,3 +25,7 @@ This plugin integrates the [Userlike](http://www.userlike.com/ "Userlike is live
 
 = 1.0 =
 * First release
+
+== Upgrade Notice == 
+= 1.1 =
+This version uses the new Userlike API enabling you to use the new Userlike features. Update recommended.
