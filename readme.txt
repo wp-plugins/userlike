@@ -10,18 +10,18 @@ This plugin integrates the Userlike live chat into your website.
 == Description ==
 
 This plugin integrates the [Userlike](http://www.userlike.com/ "Userlike is live-chat for mobile apps and websites") live chat into your website.
-Please note that this plugin requires cURL support in your PHP installation.
 
 == Installation ==
 
 1. Extract `userlike.zip` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to 'Settings' -> 'Userlike' and enter your Userlike.com credentials
+1. Go to 'Settings' -> 'Userlike' and enter your Userlike.com secret
 
 == Changelog ==
 
 = 1.1 =
 * Updated for new Userlike API (you'll only need your secret now)
+* Removed dependency on cURL support
 
 = 1.0 =
 * First release
