@@ -3,7 +3,7 @@
 Plugin Name: Userlike
 Plugin URI: http://userlike.com
 Description: Userlike live chat integration for Wordpress
-Version: 1.2
+Version: 1.3
 Author: Sven Gebhardt <sven@devcores.com>
 Author URI: http://devcores.com
 License: GPL2
@@ -53,7 +53,7 @@ class UserLike {
 		/* Insert Userlike javascript code into the page */
 		if(!self::$is_enabled) return false;
 		$secret = get_option("userlike_secret");
-		echo "<script src=\"http://widgets.userlike.com/".$secret.".js\"></script>";
+		echo "<script src=\"https://s3-eu-west-1.amazonaws.com/userlike-cdn-widgets/".$secret.".js\"></script>";
 	}
 
 	function admin_notice(){
