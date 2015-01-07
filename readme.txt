@@ -2,7 +2,7 @@
 Contributors: zakx
 Tags: userlike, livechat, livehelp, live, chat, help
 Requires at least: 3.3
-Tested up to: 3.3.1
+Tested up to: 4.1
 Stable tag: 1.3
 
 This plugin integrates the Userlike live chat into your website.
